@@ -10,7 +10,7 @@ function App() {
     return (
         <div>
             <span>count : {obj.count}</span><br />
-            <span>text : {obj.text}</span><br />
+            <span>text : {obj.text}</span><br />            {/* undefined면 jsx에 그려지지 않는다.*/}
             <button onClick={() => {
                 /*
                 setObj(prev => {
@@ -37,6 +37,9 @@ function App() {
             }}>+1</button>
             <button onClick={() => {
                 // Q) "Hello" 문자열에 계속 'o'를 붙이도록 이벤트 핸들러 정의하기
+                setObj(prev=>{
+                    return{...prev,text:prev.text+'o'}
+                })
             }}>add 'o'</button>
         </div>
     )

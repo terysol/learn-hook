@@ -1,3 +1,7 @@
+// useState 함수 불러오기
+import React, { useState } from 'react'
+import ReactDOM from 'react-dom'
+
 function Counter(props) {
     const [count, setCount] = useState(0);
     console.log('(from Counter) count : ', count)
@@ -7,7 +11,8 @@ function Counter(props) {
             // 성능상의 이유로 세터 함수로 인한 변경 사항을 큐에 쌓고 한꺼번에 처리하므로, 매 setCount 호출시마다 Counter 함수 호출이 이루어지지는 않음
             // https://dev.to/adamklein/we-don-t-know-how-react-state-hook-works-1lp8
             console.log('(from brokenAdd5) count : ', count)
-            setCount(count + 1)
+            setCount(count + 1)         // 비동기로 작업
+
         }
     }
 
@@ -28,3 +33,4 @@ function Counter(props) {
         </div>
     );
 }
+ReactDOM.render(<Counter />, document.getElementById("root"))
