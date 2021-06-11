@@ -9,4 +9,13 @@
 //  import './use-effect-demo/use-effect-unmount-deps'
 //  import './use-effect-demo/use-effect-with-dom'
 //  import './use-effect-demo/use-effect-unmount'
- import './use-effect-demo/use-effect-fetch-api'
+//  import './use-effect-demo/use-effect-fetch-api'
+//  import './use-effect-demo/news-app'
+
+//  import './use-ref-demo/use-ref-intro'
+//  import './use-ref-demo/use-ref-practice-form'
+//  import './use-ref-demo/use-ref-practice-click-game'
+
+// import './use-context-demo/use-context-using-user-context'
+// import './use-context-demo/use-context-using-theme-context'
+import './use-context-demo/fake-user-app'
