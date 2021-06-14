@@ -18,4 +18,12 @@
 
 // import './use-context-demo/use-context-using-user-context'
 // import './use-context-demo/use-context-using-theme-context'
-import './use-context-demo/fake-user-app'
+// import './use-context-demo/fake-user-app'
+// import './use-context-demo/fake-user-app-2'
+
+// import './use-reducer-demo/use-reducer-counter-1'
+// import './use-reducer-demo/use-reducer-counter-2'
+// import './use-reducer-demo/use-reducer-todo-app-1'
+
+import './use-callback-demo/use-callback-counter-demo'
+
