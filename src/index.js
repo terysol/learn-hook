@@ -25,5 +25,10 @@
 // import './use-reducer-demo/use-reducer-counter-2'
 // import './use-reducer-demo/use-reducer-todo-app-1'
 
-import './use-callback-demo/use-callback-counter-demo'
+// import './use-callback-demo/use-callback-counter-demo'
+// import './use-callback-demo/use-memo-demo'
+
+// import './custom-hook-demo/use-async-demo'
+// import './custom-hook-demo/use-hover-demo'
+import './custom-hook-demo/useTimer'
 
