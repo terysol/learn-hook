@@ -30,5 +30,8 @@
 
 // import './custom-hook-demo/use-async-demo'
 // import './custom-hook-demo/use-hover-demo'
-import './custom-hook-demo/useTimer'
+// import './custom-hook-demo/useTimer'
+
+// import './assignment/make-accordion-3105-kimsolmin'
+import './assignment/practice'
 
